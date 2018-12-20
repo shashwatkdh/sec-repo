@@ -1,4 +1,4 @@
-functio peer1
+function peer1
 {
 flag=0
 while [[ $flag -eq 0 ]]
@@ -31,3 +31,4 @@ done
 }
 
 peer1
+
