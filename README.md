@@ -1,10 +1,5 @@
-#Shashwat Katiyar
-## Mumbai,Maharashtra,India
-##Hobbies
--playing computer games
--watching TV series
-##College
-#Shashwat Katiyar
+
+# Shashwat Katiyar
 ## Mumbai,Maharashtra,India
 ##Hobbies
 -playing computer games
