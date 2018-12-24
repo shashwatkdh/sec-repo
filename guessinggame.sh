@@ -12,20 +12,14 @@ do
     flag=1
     break
     else
-    d=$(expr $inp - $c)
-    if [[ $d -lt 0 ]]
+   # d=$(expr $inp - $c)
+    if [[ $inp -lt $c ]]
     then
-       let d=$d\*-1
+      echo "too less"
+      else
+         echo "too high"
     fi
-    if [[ $d -lt 10 ]]
-    then
-      printf "\n u r close to ans"
-    elif [[ $d -ge 10 ]] && [[ $d -lt 100 ]]
-    then
-      printf "\n somewhat close"
-    else
-      printf "\n ur guess is too high"
-   fi
+   
   fi
 done
 }
